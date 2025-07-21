@@ -1,174 +1,161 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>USA Job Offers & Gift Cards</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background: #f4f4f4;
-        color: #333;
-      }
-      header {
-        background: #007bff;
-        color: white;
-        padding: 1rem 2rem;
-        text-align: center;
-      }
-      section {
-        padding: 2rem;
-      }
-      h2 {
-        color: #007bff;
-      }
-      .card-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
-        justify-content: center;
-      }
-      .card {
-        background: white;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        padding: 1.5rem;
-        width: 300px;
-        text-align: center;
-        transition: transform 0.2s ease-in-out;
-      }
-      .card img {
-        width: 100%;
-        border-radius: 8px;
-        margin-bottom: 1rem;
-      }
-      .card:hover {
-        transform: scale(1.05);
-      }
-      .btn {
-        display: inline-block;
-        margin-top: 1rem;
-        padding: 0.6rem 1.2rem;
-        background-color: #007bff;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-      }
-      .highlight {
-        text-align: center;
-        font-size: 1.5rem;
-        color: #e60000;
-        margin-bottom: 2rem;
-        font-weight: bold;
-      }
-      footer {
-        background: #333;
-        color: white;
-        text-align: center;
-        padding: 1rem;
-        margin-top: 2rem;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Exciting Job Offers & Gift Card Rewards</h1>
-      <p>Apply now or claim your reward today!</p>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <title>CPA Offer Networks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .section-box {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      margin-bottom: 20px;
+    }
 
-    <section>
-      <div class="highlight">
-        🔥 Limited Time Offers – Grab Your Opportunity Before It's Gone! 🔥
-      </div>
-      <h2>Premium Gift Cards</h2>
-      <div class="card-container">
-        <div class="card">
-          <img src="amazongiftcard.png" alt="Amazon Gift Card" />
-          <h3>Amazon Gift Card</h3>
-          <p>Claim your Amazon gift card and shop for anything you love.</p>
-          <a
-            href="https://smrturl.co/a/s7eab13c73f/11540?s1=11540"
-            target="_blank"
-            class="btn"
-            >Claim Now</a
-          >
-        </div>
-        <div class="card">
-          <img src="walmartgiftcard.png" alt="Walmart Gift Card" />
-          <h3>Walmart Gift Card</h3>
-          <p>Get a Gift Card with Walmart. Flexible shifts and benefits!</p>
-          <a
-            href="https://smrturl.co/a/s7eab13c73f/12054?s1="
-            target="_blank"
-            class="btn"
-            >Apply Now</a
-          >
-        </div>
-        <div class="card">
-          <img src="cashapp750.png" alt="Cash App Gift Card" />
-          <h3>Cash App Gift Card</h3>
-          <p>
-            Remote job openings with great pay. Perfect for freelancers and
-            stay-at-home professionals.
-          </p>
-          <a
-            href="https://smrturl.co/a/s7eab13c73f/663?s1="
-            target="_blank"
-            class="btn"
-            >Apply Now</a
-          >
-        </div>
-      </div>
-    </section>
+    .section-title {
+      background: #007BFF;
+      color: white;
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
 
-    <section>
-      <div class="highlight">
-        🎁 Free Gift Cards for a Lucky Few – Don't Miss Out! 🎁
-      </div>
-      <h2>Ultimate Gift Cards</h2>
-      <div class="card-container">
-        <div class="card">
-          <img src="sheinjob.png" alt="Shein Job" />
-          <h3>Shein Job</h3>
-          <p>
-            Join the Shein team and work in a dynamic, rewarding environment.
-          </p>
-          <a
-            href="https://go4affm.com/c/?p=47816&o=25735"
-            target="_blank"
-            class="btn"
-            >Apply Now</a
-          >
-        </div>
-        <div class="card">
-          <img src="netflixgiftcard.png" alt="Netflix Gift Card" />
-          <h3>Netflix Gift Card</h3>
-          <p>Get your hands on a Netflix gift card today!</p>
-          <a
-            href="https://go4affm.com/c/?p=47816&o=24951"
-            target="_blank"
-            class="btn"
-            >Claim Now</a
-          >
-        </div>
-        <div class="card">
-          <img src="cashapp650.png" alt="Cash App Gift Card" />
-          <h3>Cash App Gift Card</h3>
-          <p>Receive a Cash App gift card directly to your account.</p>
-          <a
-            href="https://go4affm.com/c/?p=47816&o=24914"
-            target="_blank"
-            class="btn"
-            >Claim Now</a
-          >
-        </div>
-      </div>
-    </section>
+    .offer-name {
+      display: block;
+      font-size: 16px;
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-    <footer>
-      &copy; 2025 USA Job Offers & Gift Cards Portal. All rights reserved.
-    </footer>
-  </body>
+    .offer-name:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body class="bg-light py-4">
+
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Section 1 -->
+      <div class="col-md-4 col-12">
+        <div class="section-box">
+          <div class="section-title">Sathi Apa oms</div>
+          <div class="row g-2">
+            <div class="col-12"><a href="https://www.youtube.com/redirect?q=https%3A%2F%2Fwww.opph3hftrk.com%2FQTRHW9C%2F3D9FRNW%2F
+
+" class="offer-name" target="_blank">1 offer</a></div>
+            <div class="col-12"><a href="https://www.youtube.com/redirect?q=https%3A%2F%2Fwww.opph3hftrk.com%2FQTRHW9C%2F3DD7K64%2F
+" class="offer-name" target="_blank">2 offer</a></div>
+            <div class="col-12"><a href="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqa2g4MFg0dTY5SENLcDhQY19aamE0ZFZXNWNPd3xBQ3Jtc0trb1UzN09kYXNweEJkangwU2hRWnB5aE9wSXR1Z2xhSVlvMVZYZTkwdmpiNG85VWw3dG4ybThnazBNQS1SdXBwbEZIblZQNkZuVTA4TDM3d1B1eS1OVlFrOW5zckFuY193MmxVOG5KNjM3NEcxTlR2aw&q=https%3A%2F%2Fclick2daff.com%2Fclick%3Fo%3D3851%26p%3D12143
+" class="offer-name" target="_blank">3 Rewards US - Cash $750</a></div>
+            <div class="col-12"><a href="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbl84TW5CeFUtUE0wWTRIaFk1ZThCYnpFdFZYZ3xBQ3Jtc0trd3R1d1RMOXhmZG1LM3NrRkhQbWw1QTJKR1lhLTQ2Mkhyb2U4b2Jja0kwZ3ZDdGRzcGh2Mkt6bkJxNXV6R0RKWE1PQzhyXzdNX2ZNTTZvWlRnYWpCU01XNnZPdTVVWF9RbGNlRWlPbTJTTEFIR2Y3Yw&q=https%3A%2F%2Fclick2daff.com%2Fclick%3Fo%3D3766%26p%3D12143
+" class="offer-name" target="_blank">4 Rewards US - Amazon $750</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Get Free PS5</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">TikTok Money Spin</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 2 -->
+      <div class="col-md-4 col-12">
+        <div class="section-box">
+          <div class="section-title">OGM</div>
+          <div class="row g-2">
+            <div class="col-12"><a href="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbWVGYkV5N1Y4MFBQZ1R0S3BDblduRGFURUNMd3xBQ3Jtc0tuRWstVUZmVWRZeDU4TmlwVVdrZ2cwSDNlV2lIOVF1TE1ndVF3bkZYVmVDUUxLYzdPRG5fQngxOC1WOTZQNnVreVpSUnllakg3QVhfUndGRDVoTDdCbG1jYklTYVZxZFkwc3QzSndhVWFxalVVWXN1TQ&q=https%3A%2F%2Fwww.gn3atrk.com%2F35PBWC62%2F35TG7Q2N
+" class="offer-name" target="_blank">1 OkWow - Facebook Pay $100 - CPL(US)</a></div>
+            <div class="col-12"><a href="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbUlNN3ZxX201Y1RERUVsM29lRk1pcjJjUzUyZ3xBQ3Jtc0tuaUVLRUNrMkhEQnRWSGV1MVUtT19Zb0ZEb00wVXlQeDY0SVQzSlZPZlJzWWw1SXlLc0k1eUZyWnhrcjhELTJrMmRuUDBWMkNsUktjLUxTVnE1cUZSbWhRcXFDN0lwYUJyRi1XVnRYMmFSb1J6UkRySQ&q=https%3A%2F%2Fwww.gn3atrk.com%2F35PBWC62%2F38KFP5JS
+" class="offer-name" target="_blank">2 Expert Job Match - Airport - CPL</a></div>
+            <div class="col-12"><a href="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbjVhS3BRTzN1QnhGRDZqeHFYa1U5V0JIdXFXd3xBQ3Jtc0trbVR2MXNjaXlncm93cHFWTEJfMTVsY3R0TC0xSWVhbVBRZWNvejZtTHQtVnFHbVRpRkFDc1BmUG91QWg0eTEwQ2czNG1FbXFJTHdvWUpWVFNrOXg0ekVZQ0RNTDZ1MlBtRGlHbzBlZmh4SEpNcTRtYw&q=https%3A%2F%2Fwww.gn3atrk.com%2F35PBWC62%2F35RJ39C1%2F
+" class="offer-name" target="_blank">3 GetItFree - CashApp $1000 - (US)</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Gaming Console Draw</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Grocery Cash Voucher</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Scratch & Win Offer</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3 -->
+      <div class="col-md-4 col-12">
+        <div class="section-box">
+          <div class="section-title">AdBlueMedia</div>
+          <div class="row g-2">
+            <div class="col-12"><a href="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbmVoeXNJSnBQSTJzdjlxYm05Z3QwUlRvSUplUXxBQ3Jtc0tsUlVqSkRJUEcyNThaLWtYQUlCeXF2STM5Y3Rsc21WR3BZRkE1eUItRUFIOFctd1hJZGw0VVZqTkV0R0pWNnVraWpKN3UyN0Z0b0lJeWxRbVNfamd3QWpoZlVuMjdjLUJ0VXZycGhQTl9FTWlxMXFOYw&q=https%3A%2F%2Fsmrturl.co%2Fa%2Fs7eab13c73f%2F12065%3Fs1%3D
+" class="offer-name" target="_blank">1 RewardZinga- Cash App 1k</a></div>
+            <div class="col-12"><a href="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbi11ZUk3NW5GaVY2MERMemN2NWVOMzBwbHItZ3xBQ3Jtc0trNDZ3QmhKajRiM1N5cVhDTUFFRTFZVW5xSklhRUxyZTUxdjlXUjVtVWF5bXYzWlhQd21QNGNjbG9PWmlJajBoU19qUkZwWXN3NzZzeWpsVDROY2hiLUh1OEhkeTZsQ1pvQ1pZd0JVZkc5QXNWeG9PVQ&q=https%3A%2F%2Fsmrturl.co%2Fa%2Fs7eab13c73f%2F8438%3Fs1%3D
+" class="offer-name" target="_blank">2 C4R - Grand Prize</a></div>
+            <div class="col-12"><a href="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqa2RBRkQtU0NiTEV3dHNNU0RNODR5Z3VMU0pUd3xBQ3Jtc0trUFhIemtkdHllUXkyY2RnM1pFblhaUVZwNGxGRzhCZ3lzZ0p0YUV2T0JvS1lBdl9VaEhmczRfd0NjYTJMWi1YU2ZEa2RHalFhZFlQcFY4b0xhU3FyOU02bUJZNV9sX0QzQ0Vrbzc1RWZLOGNNLUlGZw&q=https%3A%2F%2Fsmrturl.co%2Fa%2Fs7eab13c73f%2F12458%3Fs1%3D
+" class="offer-name" target="_blank">3 OkWow - Walmart 5000</a></div>
+            <div class="col-12"><a href="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbXE1RktvSy1CUmRHTDhnek14aURrTnFNVXFuQXxBQ3Jtc0tuNU1CWmxHSEQxWWp6SkxlWVhnQXdOOUZibUdldTFlczNhTXZITXdjRzBQeVVaS2pvblUwdi1tdE1xdkh4c0Y5ZVExdExMQ3NoLXM2Q19TTUJvd2NEQzE3enJIYnZMX0tCSkNJWEdqWTAxSS1SZEh1dw&q=https%3A%2F%2Fsmrturl.co%2Fa%2Fs7eab13c73f%2F12680%3Fs1%3D
+" class="offer-name" target="_blank">4 OkWow - Hulu Plus $100 Gift Card</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Birthday Spin Deal</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Limited Time Gift</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 4 -->
+      <div class="col-md-4 col-12">
+        <div class="section-box">
+          <div class="section-title">AffRoyal</div>
+          <div class="row g-2">
+            <div class="col-12"><a href="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqa2xYeVI0eGhPLVhHWmhyYkJUeWJqSGwtd25qd3xBQ3Jtc0ttU0wxTE5tQkxZdWJWV2hMeXM0U2d3TWEwcWh4bjBPZjhuNk4wS0J6Vk1tVjBVd2FvR3QzTXBPN0lIajBNVklDeS03eEFrOUZ0elZ0ZEdKZEVWeUlQWGFMLVNUUXlEdkl5YlN4OVY2ZWZUT09JaURJTQ&q=https%3A%2F%2Faff4jobs.com%2Fgo%3Fc%3D6143%26p%3D42286
+" class="offer-name" target="_blank">1 OkWow - Walmart $1000 Giftcard - CPL</a></div>
+            <div class="col-12"><a href="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbnBXMjVRZGc5cFFka3hrUWtvRWdHb2ktR1VBQXxBQ3Jtc0trZUlKVFBmVV9sbVlOS3JwNGxycFZxM0xVeW12MXB1OFRDWFp3bVBBa2hTLU5rLU1pbXBWbFBNMkJzVkQyNjNpVlNUQ2kycXBIWGNXdVJHWWZmZG9pdHRkNmxKalpnSGZOM0p1LTVFS3RVOFNXZG1rRQ&q=https%3A%2F%2Faff4jobs.com%2Fgo%3Fc%3D6102%26p%3D42286
+" class="offer-name" target="_blank">2 OkWow - Bonefish Grill $100 - CPL</a></div>
+            <div class="col-12"><a href="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbFBINjJyMEU0UnNjZGEyR0NxRW43UzMtS0VuUXxBQ3Jtc0tscUhwemtDMjR3WmdLT3NRRFR1b2poRWx0ZDJjczJiQm90RTRTUzd1N3Z5cW9mZjFtLThzTFBMU3RNaW1sdXowdnhYaXBtcFhMM1QzcllEczN5Z2k5SEZjdjQ1UGR0QThJUWZJcGtmeF85amRHMzNuWQ&q=https%3A%2F%2Faff4jobs.com%2Fgo%3Fc%3D6101%26p%3D42286
+" class="offer-name" target="_blank">3 OkWow - BJS Restaurant $100 - CPL</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Claim Daily Coins</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Free Mobile Recharge</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Cashback Survey</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 5 -->
+      <div class="col-md-4 col-12">
+        <div class="section-box">
+          <div class="section-title">Offer Media Solution</div>
+          <div class="row g-2">
+            <div class="col-12"><a href="https://www.youtube.com/redirect?q=https%3A%2F%2Fwww.opph3hftrk.com%2FP312XQJ%2F3DD7K64%2F&event=comments&redir_token=QUFFLUhqbXAwQmZxTmlYd25VNWs0MjRCazdNY2o5SDhIUXxBQ3Jtc0ttd2ZQZzBSTDkycURXWGtvcDF1dk1tTFZFZTc5eEYwbDdPcXY4dWVnNXc2SmhxMEtfZ0NVNTZ0OFd3VHRGNWY5amU5Q3pMUkx5cjFxM1NWT1VPTnd6N1dDM0FHOFBxeGM1dldVX0pZT0x6ZjRwalQ2VQ&q&html_redirect=1
+" class="offer-name" target="_blank">1 OkWow - Amazon $250 - CPL(US)</a></div>
+            <div class="col-12"><a href="https://www.youtube.com/redirect?q=https%3A%2F%2Fwww.opph3hftrk.com%2FP312XQJ%2F3D9FRNW%2F&event=comments&redir_token=QUFFLUhqbXAwQmZxTmlYd25VNWs0MjRCazdNY2o5SDhIUXxBQ3Jtc0ttd2ZQZzBSTDkycURXWGtvcDF1dk1tTFZFZTc5eEYwbDdPcXY4dWVnNXc2SmhxMEtfZ0NVNTZ0OFd3VHRGNWY5amU5Q3pMUkx5cjFxM1NWT1VPTnd6N1dDM0FHOFBxeGM1dldVX0pZT0x6ZjRwalQ2VQ&q&html_redirect=1
+" class="offer-name" target="_blank">2 OkWow - Walmart $750 - CPL(US)</a></div>
+            <div class="col-12"><a href="https://www.youtube.com/redirect?q=https%3A%2F%2Fwww.opph3hftrk.com%2FP312XQJ%2F3D14H98%2F&event=comments&redir_token=QUFFLUhqbXAwQmZxTmlYd25VNWs0MjRCazdNY2o5SDhIUXxBQ3Jtc0ttd2ZQZzBSTDkycURXWGtvcDF1dk1tTFZFZTc5eEYwbDdPcXY4dWVnNXc2SmhxMEtfZ0NVNTZ0OFd3VHRGNWY5amU5Q3pMUkx5cjFxM1NWT1VPTnd6N1dDM0FHOFBxeGM1dldVX0pZT0x6ZjRwalQ2VQ&q&html_redirect=1
+" class="offer-name" target="_blank">3 OkWow - CashApp $850 - CPL(US)</a></div>
+            <div class="col-12"><a href="https://www.youtube.com/redirect?q=https%3A%2F%2Fwww.opph3hftrk.com%2FP312XQJ%2F39WRDCQ%2F&event=comments&redir_token=QUFFLUhqbXAwQmZxTmlYd25VNWs0MjRCazdNY2o5SDhIUXxBQ3Jtc0ttd2ZQZzBSTDkycURXWGtvcDF1dk1tTFZFZTc5eEYwbDdPcXY4dWVnNXc2SmhxMEtfZ0NVNTZ0OFd3VHRGNWY5amU5Q3pMUkx5cjFxM1NWT1VPTnd6N1dDM0FHOFBxeGM1dldVX0pZT0x6ZjRwalQ2VQ&q&html_redirect=1
+" class="offer-name" target="_blank">4 Expert Job Match - FedEx - CPL (US)</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Cash App Spin</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Instant Scratch Win</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 6 -->
+      <div class="col-md-4 col-12">
+        <div class="section-box">
+          <div class="section-title">Nexussyner</div>
+          <div class="row g-2">
+            <div class="col-12"><a href="https://www.youtube.com/redirect?q=https%3A%2F%2Fnx2bs.com%2Fc%3Fo%3D373%26a%3D17639&event=comments&redir_token=QUFFLUhqbXAwQmZxTmlYd25VNWs0MjRCazdNY2o5SDhIUXxBQ3Jtc0ttd2ZQZzBSTDkycURXWGtvcDF1dk1tTFZFZTc5eEYwbDdPcXY4dWVnNXc2SmhxMEtfZ0NVNTZ0OFd3VHRGNWY5amU5Q3pMUkx5cjFxM1NWT1VPTnd6N1dDM0FHOFBxeGM1dldVX0pZT0x6ZjRwalQ2VQ&q&html_redirect=1" class="offer-name" target="_blank">
+Expert Job Match - Construction - CPL-(US)</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Free Fashion Gift</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Daily Coin Reward</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Free Trial Box</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Lucky Gift Card</a></div>
+            <div class="col-12"><a href="#" class="offer-name" target="_blank">Shopping Bonus</a></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
 </html>
